@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var modulo_relacionado = $("input[name=rel_custom_module]").val(); // Vista de lista->Vista de detalle->Editar registro
-    return_module = $("input[name=return_module]").val(); // Agregar registro
+  var return_module = $("input[name=return_module]").val(); // Agregar registro
     if (modulo_relacionado == "fideicomisos" || return_module == "fideicomisos") {
       deshabilita_campos("cf_12171");
       deshabilita_campos("cf_12247");
