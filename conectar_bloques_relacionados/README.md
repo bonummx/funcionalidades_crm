@@ -1,4 +1,4 @@
-# Bloques Relacionados
+# Conectar Bloques Relacionados
 Conecta registros al módulo padre al abrirlos desde un bloque relacionado en el CRM.
 
 ![bloque_relacionado](https://user-images.githubusercontent.com/80594356/113602030-b75a0680-9607-11eb-8f2b-aa5207d2df46.png)
@@ -48,7 +48,7 @@ Agregar el nombre del parámetro en el atributo OnClick
 
 Crear un nuevo input. Agregar el nombre del parámetro en el atributo `name` y en el atributo value esta sintaxis `{if isset($smarty.request.rel_custom_module)}{$smarty.request.rel_custom_module|@urlencode}{/if}`reemplazando con el nombre del nuevo parámetro
 
-Ej. 
+Ej.
 ```php
 <input type="hidden" name="rel_custom_module" value="{if isset($smarty.request.rel_custom_module)}{$smarty.request.rel_custom_module|@urlencode}{/if}" />
 ```
@@ -56,7 +56,7 @@ Ej.
 
 Crear un nuevo input. Agregar el nombre del parámetro en el atributo `name` y en el atributo value esta sintaxis `{if isset($smarty.request.rel_custom_module)}{$smarty.request.rel_custom_module|@urlencode}{/if}` reemplazando con el nombre del nuevo parámetro
 
-Ej. 
+Ej.
 ```php
 <input type="hidden" name="rel_custom_module" value="{if isset($smarty.request.rel_custom_module)}{$smarty.request.rel_custom_module|@urlencode}{/if}" />
 ```
